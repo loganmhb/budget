@@ -17,7 +17,9 @@ export default styles = StyleSheet.create({
   },
   box: {
     borderBottomColor: '#000033',
-    borderBottomWidth: 1,
+    borderBottomWidth: 2,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
     width: windowSize.width
   },
   button: {
@@ -30,5 +32,11 @@ export default styles = StyleSheet.create({
     overflow: 'hidden',
     borderRadius: 8,
     backgroundColor: 'darkseagreen'
+  },
+  budgetItem: {
+    color: 'darkslategray',
+    fontFamily: 'Courier',
+    fontSize: 18,
+    margin: 5
   }
 });

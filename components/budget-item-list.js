@@ -21,6 +21,9 @@ export default class BudgetItemList extends Component {
     });
   }
 
+
+  //TODO: render in sections by date
+  //TODO: display totals
   render() {
     return (
       <ListView contentContainerStyle={styles.container}

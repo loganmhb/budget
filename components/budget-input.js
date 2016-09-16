@@ -34,6 +34,7 @@ export default class BudgetInput extends Component {
                      onChangeText={(text) => this.setState({item: text})} />
           <TextInput placeholder="How much was it?"
                      blurOnSubmit={true}
+                     keyboardType={'numeric'}
                      onChangeText={(text) => this.setState({cost: text})} />
         </View>
         <Button containerStyle={styles.button}

@@ -11,8 +11,11 @@ export default class BudgetItem extends Component {
     return (
       <View style={styles.box}>
         <Text style={styles.budgetItem}>
-          {this.props.data.item}: {this.props.data.cost}
+          {this.props.data.item}
         </Text>
+        <Text style={styles.budgetItem}>
+          {this.props.data.cost}
+       </Text>
       </View>
     );
   }
